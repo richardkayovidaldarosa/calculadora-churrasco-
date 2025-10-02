@@ -1,4 +1,5 @@
 
+#include <stdio.h>
 
 int main(){
     char nome[50]; // arrar de caracteres para armazenar nome 
@@ -13,7 +14,7 @@ int main(){
 
     printf("Olá %s, você tem %d anos!\n", nome,idade);
 
-    if(idade <=15){
+    if(idade <=16){
         printf("Ainda está novo.");
     }
     else{
